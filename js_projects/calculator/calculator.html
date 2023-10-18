@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculator</title>
+        <style>
+            #divScreen {
+                display: flex;
+                justify-content: center;
+                background-color: rgb(240, 240, 240);
+                align-items: center;
+                padding: 25px 50px 25px 25px;
+                margin: 50px 500px 10px 500px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            button {
+                color: rgb(0, 22, 10);
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(244, 244, 244);
+                border: 0px;
+                padding: 25px;
+                padding-left: 35px;
+                padding-right: 35px;
+                margin-right: 15px;
+                border-radius: 20px;
+            }
+
+            button:hover {
+                background-color: rgb(224, 224, 224);
+                border-radius: 25px;
+                font-size: 39px;
+            }
+            #cancel {
+                color: rgb(216, 0, 0);
+            }
+            #equal {
+                background-color: rgb(0, 167, 0);
+                color: rgb(255, 255, 255);
+                font-size: 60;
+            }
+            #equal:hover {
+                background-color: rgb(0, 142, 0);
+            }
+
+            .tooBig {
+                font-size: 35px;
+            }
+
+            .tooBig:hover {
+                font-size: 34px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="divScreen">
+            <h1 id="screen"></h1>
+        </div>
+        <div>
+            <button id="cancel" class="tooBig">C</button>
+            <button id="sqrt">√</button>
+            <button id="percent" class="tooBig">%</button>
+            <button id="div">÷</button>
+        </div>
+        <br>
+        <div>
+            <button id="n7">7</button>
+            <button id="n8">8</button>
+            <button id="n9">9</button>
+            <button id="mult">x</button>
+        </div>
+        <br>
+        <div>
+            <button id="n4">4</button>
+            <button id="n5">5</button>
+            <button id="n6">6</button>
+            <button id="minus">-</button>
+        </div>
+        <br>
+        <div>
+            <button id="n1">1</button>
+            <button id="n2">2</button>
+            <button id="n3">3</button>
+            <button id="plus">+</button>
+        </div>
+        <br>
+        <div>
+            <button id="n0">0</button>
+            <button id="power3" class="tooBig">^3</button>
+            <button id="power2" class="tooBig">^2</button>
+            <button id="equal">=</button>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
