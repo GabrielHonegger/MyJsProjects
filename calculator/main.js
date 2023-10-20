@@ -60,9 +60,7 @@ function calculate() {
 document.getElementById("equal").addEventListener("click", function() {
     calculate();
     document.getElementById("screen").textContent = res;
-    res = 0;
     nb = 0;
-    lastSignal = 0;
 });
 
 document.getElementById("n1").addEventListener("click", function() {

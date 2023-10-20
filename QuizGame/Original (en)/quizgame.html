@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Quiz Game</title>
+        <style>
+            #numberQuestion {
+                margin-top: 35px;
+            }
+            h1 {
+                font-weight: 600;
+                font-size: 20px;
+                margin-top: 40px;
+                color: rgb(31, 31, 31);
+            }
+            h2 {
+                margin-top: 25px;
+                color: rgb(31, 31, 31);
+                font-weight: 300;
+            }
+            #main {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            button {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                font-size: 20px;
+                margin-top: 40px;
+                min-width: 300px;
+                min-height: 50px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: rgb(255, 255, 255);
+                color: rgb(36, 36, 36);
+                border-color: rgb(165, 165, 165);
+                border-radius: 10px;
+                border-style: solid;
+                transition: background-color 0.2s;
+                transition: font-size 0.2s;
+                border-width: 1px;
+            }
+            button:hover {
+                background-color: rgb(239, 239, 239);
+                font-size: 19px;
+                border-width: 2px;
+            }
+            button:active {
+                background-color: rgb(226, 226, 226);
+            }
+            #next {
+                background-color: rgb(14, 170, 0);
+                color: white;
+                border-color: rgb(36, 36, 36);
+                border-width: 0px;
+                font-size: 18px;
+                min-width: 150px;
+                border-radius: 20px;
+                margin-top: 65px
+            }
+            #next:hover {
+                background-color: rgb(13, 159, 0);
+                font-size: 17px;
+            }
+            #next:active {
+                background-color:  rgb(12, 141, 0);
+                border-width: 0px;
+            }
+            .correct {
+                background-color: rgb(15, 175, 0);
+                color: white;
+                border-color: rgb(11, 127, 0);
+                border-width: 1px;
+            }
+            .correct:hover {
+                background-color: rgb(15, 175, 0);
+                color: white;
+                border-width: 3px;
+            }
+            .wrong {
+                background-color: rgb(231, 0, 0);
+                color: white;
+                border-color: rgb(175, 0, 0);
+                border-width: 1px;
+            }
+            .wrong:hover {
+                background-color: rgb(231, 0, 0);
+                color: white;
+                border-width: 3px;
+            }
+            .hidden {display:none;}
+            .goodMessage {color: rgb(15, 175, 0); margin-top: 100px;}
+            .tryAgainMessage {color: rgb(231, 0, 0); margin-top: 100px;}
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <h1 id="numberQuestion">Question 1 (of 10)</h1>
+            <h2 id="question">What country has the highest life expectancy?</h2>
+            <div>
+                <button id="option1">Switzerland</button>
+                <button id="option2">Hong Kong</button>
+                <button id="option3">Japan</button>
+                <button id="option4">China</button>
+            </div>
+            <button id="next">Next ></button>
+            <h1 id="score">Score: 0</h1>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
