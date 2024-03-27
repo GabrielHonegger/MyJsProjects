@@ -1,5 +1,5 @@
 # Javascript Projects
-To learn Javascript, HTML and CSS.
+Learning Javascript, HTML and CSS.
 
 # Projetos Javascript
-Para aprender Javascript, HTML e CSS.
+Aprendendo Javascript, HTML e CSS.
