@@ -1,0 +1,147 @@
+:root {
+    --background-color: rgb(6, 147, 255);
+    --calculator-background: rgb(242, 242, 242);
+    --button1-background: #fefefe;
+    --button1-background-hover: #f8f8f8;
+    --button1-background-active: #ebebeb;
+    --button2-background: rgb(149, 215, 255);
+    --button2-background-hover: rgb(134, 209, 255);
+    --button2-background-active: rgb(120, 203, 255);
+    --button2-font-color: rgb(0, 140, 255);
+    --color: rgb(16, 16, 16);
+}
+body {
+    font-family: 'Open Sans', Arial;
+    background-color: var(--background-color);
+    height: 100vh;
+}
+.dark-mode {
+    --background-color: rgb(23, 23, 23);
+    --calculator-background: rgb(10, 10, 10);
+    --button1-background: rgb(47, 47, 47);
+    --button1-background-hover: rgb(37, 37, 37);
+    --button1-background-active: rgb(34, 34, 34);
+    --button2-background: rgb(0, 101, 195);
+    --button2-background-hover: rgb(0, 94, 181);
+    --button2-background-active: rgb(0, 87, 169);
+    --button2-font-color: rgb(187, 224, 255);
+    --color: white;
+}
+.buttons-row {
+    display: flex;
+    align-items: center;
+}
+p {
+    height: 50px;
+    color: var(--color);
+}
+button {
+    cursor: pointer;
+}
+.calculator {
+    background-color: var(--calculator-background);
+    width: 340px;
+    height: 450px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+.buttons {
+    padding: 10px 15px;
+    display: grid;
+    grid-template-rows: 55px 55px 55px 55px;
+    row-gap: 12px;
+}
+.white-button {
+    width: 70px;
+    height: 55px;
+    color: rgb(0, 157, 255);
+    font-size: 24px;
+    background-color: var(--button1-background);
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+}
+.white-button:hover {
+    background-color: var(--button1-background-hover);
+}
+.white-button:active {
+    background-color: var(--button1-background-active);
+}
+.blue-button {
+    color: var(--button2-font-color);
+    font-size: 24px;
+    background-color: var(--button2-background);
+    border-radius: 10px;
+    border: none;
+    padding: 14px 20px;
+    width: 70px;
+    height: 55px;
+}
+.blue-button:hover {
+    background-color: var(--button2-background-hover);
+}
+.blue-button:active {
+    background-color: var(--button2-background-active);
+}
+#clear-button {
+    font-size: 16px;
+    width: 70px;
+    height: 55px;
+    width: 80px;
+}
+#result-button {
+    background-color: rgb(0, 140, 255);
+    color: white;
+    width: 140px;
+}
+#result-button:hover {
+    background-color: rgb(0, 128, 234);
+}
+#result-button:active {
+    background-color: rgb(0, 122, 223);
+}
+#zero-button {
+    width: 100px;
+}
+#plus-button {
+    width: 140px;
+    margin-right: 10px;
+}
+#dot-button {
+    width: 50px;
+}
+.js-output {
+    font-size: 36px;
+    width: 300px;
+    height: 60px;
+    background-color: var(--calculator-background);
+    margin-top: 1px;
+    padding: 15px 20px 0px 20px;
+    margin-bottom: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: right;
+}
+.theme-picker {
+    background-color: var(--button1-background);
+    width: 50px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.theme-picker:hover {
+    background-color: var(--button1-background-hover);
+}
+.theme-picker:active {
+    background-color: var(--button1-background-active);
+}
+img {
+    width: 1.5em;
+    padding: 10px 0px;
+}
+.header {
+    justify-content: flex-end;
+    display: flex;
+}

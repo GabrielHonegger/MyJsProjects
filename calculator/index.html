@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header"><div class="theme-picker" onclick="changeTheme()"><img src="moon.png" alt=""></div></div>
+    <div class="calculator">
+        <p class="js-output"></p>
+        <div class="buttons">
+            <div class="buttons-row">
+                <button class="white-button" onclick="updateCalculation('1');">1</button>
+                <button class="white-button" onclick="updateCalculation('2');">2</button>
+                <button class="white-button" onclick="updateCalculation('3');">3</button>
+                <button class="blue-button" onclick="updateCalculation(' - ');">-</button>
+                
+            </div>
+            <div class="buttons-row">
+                <button class="white-button" onclick="updateCalculation('4');">4</button>
+                <button class="white-button" onclick="updateCalculation('5');">5</button>
+                <button class="white-button" onclick="updateCalculation('6');">6</button>
+                <button class="blue-button" onclick="updateCalculation(' * ');">x</button>
+            </div>
+            <div class="buttons-row">
+                <button class="white-button" onclick="updateCalculation('7');">7</button>
+                <button class="white-button" onclick="updateCalculation('8');">8</button>
+                <button class="white-button" onclick="updateCalculation('9');">9</button>
+                <button class="blue-button" onclick="updateCalculation(' / ');">÷</button>
+            </div>
+            <div class="buttons-row">
+                <button class="blue-button" id="plus-button" onclick="updateCalculation(' + ');">+</button>
+                <button class="white-button" id="zero-button" onclick="updateCalculation('0');">0</button>
+                <button class="white-button" id="dot-button" onclick="updateCalculation('.');">.</button>
+            </div>
+            <div class="buttons-row">
+                <button class="white-button" id="clear-button" onclick="resetCalculation();">Clear</button>
+                <button class="white-button" onclick="updateCalculation('()');">( )</button>
+                <button class="white-button" id="result-button" onclick="calculateResult();">=</button>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
