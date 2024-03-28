@@ -15,7 +15,7 @@ document.getElementById("downloadButton").addEventListener("click", function() {
   
     // Simulate a click on the link to trigger the download
     a.click();
-  
+    console.log("Gabriel Honegger");
     // Clean up: Revoke the Blob URL to release resources
     URL.revokeObjectURL(blobUrl);
   });
