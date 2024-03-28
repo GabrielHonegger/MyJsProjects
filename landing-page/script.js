@@ -7,9 +7,9 @@ function activateFocus2() {
 function changePageLanguage() {
     let languageValue = document.querySelector("#languages").value;
     if (languageValue === 'english') {
-        window.location.href = "/netflix-landing-page/en/index.html";
+        window.location.href = "/landing-page/en/index.html";
     }
     else {
-        window.location.href = "/netflix-landing-page/index.html";
+        window.location.href = "/landing-page/index.html";
     }
 }
