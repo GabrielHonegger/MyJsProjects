@@ -6,10 +6,10 @@ function activateFocus2() {
 }
 function changePageLanguage() {
     let pageLang = window.location.href;
-    if (pageLang.includes('/netflix-landing-page/pt-BR/index.html') || window.location.href == "") {
+    if (pageLang.includes('/netflix-landing-page/index.html') || window.location.href == "") {
         window.location.href = "/netflix-landing-page/en/index.html";
     }
     else {
-        window.location.href = "/netflix-landing-page/pt-BR/index.html";
+        window.location.href = "/netflix-landing-page/index.html";
     }
 }
