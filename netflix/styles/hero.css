@@ -1,0 +1,320 @@
+@media (min-width: 1200px) {
+    .hero-content h1 {
+        font-size: 54px;
+        font-weight: 800;
+        width: 620px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .hero-content h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .try-netflix button {
+        font-size: 22px;
+        font-weight: 600;
+        color: white;
+        background-color: #E50815;
+        border: none;
+        border-radius: 5px;
+        padding: 14px 50px 14px 24px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+    .sign-up-button img {
+        width: 17px;
+        position: absolute;
+        right: 22px;
+        top: 18px;
+    }
+    .try-netflix input {
+        font-size: 16px;
+        padding: 20px 10px 5px 15px;
+        border: 1px solid #606060;
+        border-radius: 4px;
+        width: 60%;
+        background-color: rgba(20, 20, 20, 0.8);
+        color: white;
+        margin-right: 10px;
+        position: relative;
+    }
+    .try-netflix {
+        width: 588px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .try-netflix label {
+        color: #B8B8B8;
+        transition: font-size 0.2s, top 0.2s;
+        top: 16px;
+        left: 30px;
+        font-size: 16px;
+        position: absolute;
+        user-select: none;
+        cursor: text;
+    }
+    .try-netflix input:focus ~ label {
+        font-size: 12px;
+        top: 8px;
+        left: 30px;
+        cursor: text;
+    }
+    
+    .try-netflix input:valid ~ label {
+        font-size: 12px;
+        top: 8px;
+        left: 30px;
+        cursor: text;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+    .hero-content h1 {
+        font-size: 40px;
+        font-weight: 800;
+        width: 550px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .hero-content h2 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .try-netflix button {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        background-color: #E50815;
+        border: none;
+        border-radius: 5px;
+        padding: 17px 50px 17px 24px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+    .sign-up-button img {
+        width: 17px;
+        position: absolute;
+        right: 22px;
+        top: 18px;
+    }
+    .try-netflix input {
+        font-size: 16px;
+        padding: 25px 10px 10px 15px;
+        border: 1px solid #606060;
+        border-radius: 4px;
+        width: 60%;
+        background-color: rgba(20, 20, 20, 0.8);
+        color: white;
+        margin-right: 10px;
+        position: relative;
+    }
+    .try-netflix {
+        width: 560px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .try-netflix label {
+        color: #B8B8B8;
+        transition: font-size 0.2s, top 0.2s;
+        top: 16px;
+        left: 33px;
+        font-size: 16px;
+        position: absolute;
+        user-select: none;
+        cursor: text;
+    }
+    .try-netflix input:focus ~ label {
+        font-size: 12px;
+        top: 8px;
+        left: 32px;
+        cursor: text;
+    }
+    
+    .try-netflix input:valid ~ label {
+        font-size: 12px;
+        top: 8px;
+        left: 32px;
+        cursor: text;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+    .hero-content h1 {
+        font-size: 32px;
+        font-weight: 800;
+        width: 500px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .hero-content h2 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .hero-content p {
+        width: 500px;
+        text-align: center;
+    }
+    .try-netflix button {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        background-color: #E50815;
+        border: none;
+        border-radius: 5px;
+        padding: 17px 50px 17px 24px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+    .sign-up-button img {
+        width: 17px;
+        position: absolute;
+        right: 22px;
+        top: 18px;
+    }
+    .try-netflix input {
+        font-size: 16px;
+        padding: 25px 10px 10px 15px;
+        border: 1px solid #606060;
+        border-radius: 4px;
+        flex: 1;
+        background-color: rgba(20, 20, 20, 0.8);
+        color: white;
+        margin-right: 10px;
+        position: relative;
+    }
+    .try-netflix {
+        width: 432px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .try-netflix label {
+        color: #B8B8B8;
+        transition: font-size 0.2s, top 0.2s;
+        top: 16px;
+        left: 16px;
+        font-size: 16px;
+        position: absolute;
+        user-select: none;
+        cursor: text;
+    }
+    .try-netflix input:focus ~ label {
+        font-size: 12px;
+        top: 8px;
+        left: 15px;
+        cursor: text;
+    }
+    
+    .try-netflix input:valid ~ label {
+        font-size: 12px;
+        top: 8px;
+        left: 15px;
+        cursor: text;
+    }
+
+}
+
+@media (max-width: 599px) {
+    .hero-content h1 {
+        font-size: 30px;
+        font-weight: 800;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .hero-content h2 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .hero-content p {
+        width: 90%;
+        text-align: center;
+    }
+    .try-netflix button {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        background-color: #E50815;
+        border: none;
+        border-radius: 5px;
+        padding: 17px 50px 17px 24px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        margin-top: 14px;
+    }
+    .sign-up-button img {
+        width: 17px;
+        position: absolute;
+        right: 16px;
+        top: 32px;
+    }
+    .try-netflix input {
+        font-size: 16px;
+        padding: 25px 10px 10px 15px;
+        border: 1px solid #606060;
+        border-radius: 4px;
+        min-width: 80%;
+        flex: 1;
+        background-color: rgba(20, 20, 20, 0.8);
+        color: white;
+        position: relative;
+    }
+    .try-netflix {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .try-netflix label {
+        color: #B8B8B8;
+        transition: font-size 0.2s, top 0.2s;
+        top: 16px;
+        left: 16px;
+        font-size: 16px;
+        position: absolute;
+        user-select: none;
+        cursor: text;
+    }
+    .try-netflix input:focus ~ label {
+        font-size: 12px;
+        top: 8px;
+        left: 15px;
+        cursor: text;
+    }
+    
+    .try-netflix input:valid ~ label {
+        font-size: 12px;
+        top: 8px;
+        left: 15px;
+        cursor: text;
+    }
+}
+
+.hero-content {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.try-netflix button:hover {
+    background-color: #C11119;
+}
+.try-netflix button:active {
+    background-color: #a30e16;
+    color: rgba(255, 255, 255, 0.819);
+    transition: none;
+}
+.sign-up-button {
+    position: relative;
+}

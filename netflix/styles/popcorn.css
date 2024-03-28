@@ -1,0 +1,143 @@
+.content-inside {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.popcorn-banner:hover {
+    transform: scale(1.03);
+}
+.popcorn-banner img {
+    width: 81px;
+    height: 76px;
+
+}
+.popcorn-message {
+    background-image: linear-gradient(to right, #2b163f, #11153c, #462366, #1d2464);
+    width: 100%;
+    height: 80%;
+    margin-left: 15px;
+    border-radius: 15px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 5px 25px 5px 25px;
+    align-items: center;
+    transition: background-position 0.5s ease;
+    background-size: 200%;
+    background-position: left;
+}
+.popcorn-message:hover {
+    background-position: right;
+}
+
+.text-message h1 {
+    font-size: 19px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.text-message h2 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.popcorn-message button {
+    color: white;
+    background-color: #414257;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 0px 16px;;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 119px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.popcorn-message button:hover {
+    background-color: rgba(55, 56, 75, 0.736);
+}
+.popcorn-message button:active {
+    color: rgba(255, 255, 255, 0.687);
+}
+
+@media (min-width: 1200px) {
+    .popcorn-banner {
+        height: 90px;
+        width: 80%;
+        background-color: transparent;
+        display: flex;
+        margin: auto;
+        margin-top: 250px;
+        transition: transform 0.3s ease-out;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+    .popcorn-banner {
+        height: 90px;
+        width: 80%;
+        background-color: transparent;
+        display: flex;
+        margin: auto;
+        margin-top: 300px;
+        transition: transform 0.3s ease-out;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+    .popcorn-banner {
+        max-width: 90%;
+        background-color: transparent;
+        display: flex;
+        margin: auto;
+        margin-top: 175px;
+        transition: transform 0.3s ease-out;
+        position: relative;
+    }
+}
+
+@media (max-width: 599px) {
+    .popcorn-banner {
+        max-width: 90%;
+        background-color: transparent;
+        display: flex;
+        margin: auto;
+        margin-top: 150px;
+        transition: transform 0.3s ease-out;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .popcorn-message {
+        background-image: linear-gradient(to right, #2b163f, #11153c, #462366, #1d2464);
+        width: 100%;
+        height: 80%;
+        margin-left: 15px;
+        border-radius: 15px;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        padding: 30px 25px 5px 25px;
+        align-items: center;
+        transition: background-position 0.5s ease;
+        background-size: 200%;
+        background-position: left;
+    }
+    .popcorn-banner img {
+        width: 74px;
+        height: 68px;
+        position: absolute;
+        top: -45px;
+        left: 30px;
+    }
+}

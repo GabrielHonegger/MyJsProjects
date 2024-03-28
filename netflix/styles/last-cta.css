@@ -1,0 +1,163 @@
+.last-cta-container {
+    width: 82%;
+    height: 84px;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.last-cta {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.last-cta p {
+    color: white;
+    font-size: 16px;
+}
+
+.start-now {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.start-now input {
+    font-size: 16px;
+    padding: 20px 10px 5px 15px;
+    border: 1px solid #606060;
+    border-radius: 4px;
+    width: 67%;
+    background-color: rgba(20, 20, 20, 0.6);
+    color: white;
+    margin-right: 10px;
+    position: relative;
+}
+
+.start-now label {
+    color: #B8B8B8;
+    transition: font-size 0.2s, top 0.2s;
+    top: 16px;
+    left: 15px;
+    font-size: 16px;
+    position: absolute;
+    user-select: none;
+    cursor: text;
+}
+
+.start-now input:focus ~ label {
+    font-size: 12px;
+    top: 8px;
+    left: 15px;
+    cursor: text;
+}
+
+.start-now input:valid ~ label {
+    font-size: 12px;
+    top: 8px;
+    left: 15px;
+    cursor: text;
+}
+
+.start-now-button button {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    background-color: #E50815;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 50px 14px 24px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    min-width: 156px;
+}
+
+.start-now-button button:hover {
+    background-color: #C11119;
+}
+
+.start-now-button button:active {
+    background-color: #a30e16;
+    color: rgba(255, 255, 255, 0.819);
+    transition: none;
+}
+
+.start-now-button {
+    position: relative;
+}
+
+.start-now-button img {
+    width: 17px;
+    position: absolute;
+    right: 22px;
+    top: 20px;
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+    .start-now-button button {
+        font-size: 18px;
+    }
+    .start-now-button img {
+        width: 17px;
+        position: absolute;
+        right: 22px;
+        top: 16px;
+    }
+}
+
+@media (min-width: 626px) and (max-width: 959px) {
+    .start-now-button button {
+        font-size: 18px;
+    }
+    .start-now-button img {
+        width: 17px;
+        position: absolute;
+        right: 22px;
+        top: 16px;
+    }
+    .last-cta-container {
+        width: 94%;
+    }
+    .start-now input {
+        padding: 23px 10px 9px 15px;
+    }
+}
+
+@media (max-width: 625px) {
+    .start-now-button button {
+        font-size: 18px;
+        padding: 14px 45px 14px 15px;
+        min-width: 50px;
+    }
+    .start-now-button img {
+        width: 17px;
+        position: absolute;
+        right: 18px;
+        top: 16px;
+    }
+    .last-cta-container {
+        width: 88%;
+    }
+    .start-now input {
+        width: 100%;
+        padding: 23px 10px 9px 15px;
+    }
+    .start-now-button {
+        margin-top: 15px;
+    }
+    .last-cta-container {
+        height: 140px;
+    }
+    .start-now label {
+        color: #B8B8B8;
+        transition: font-size 0.2s, top 0.2s;
+        top: 14px;
+        left: 15px;
+        font-size: 16px;
+        position: absolute;
+        user-select: none;
+        cursor: text;
+    }
+    
+}

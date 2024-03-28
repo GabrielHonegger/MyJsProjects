@@ -1,0 +1,122 @@
+@media (min-width: 960px) {
+    .logo img{
+        width: 150px;
+    }
+    .header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+        background-color: transparent;
+        width: 80%;
+        margin: auto;
+        z-index: 2;
+    }
+    .select-language {
+        background-color: transparent;
+        border: 1px solid #606060;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        padding: 6px 34px 4px 36px;
+        appearance: none;
+        margin-right: 14px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+    .logo img{
+        width: 90px;
+    }
+    .header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+        background-color: transparent;
+        width: 93%;
+        margin: auto;
+        z-index: 2;
+    }
+    .select-language {
+        background-color: transparent;
+        border: 1px solid #606060;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        padding: 6px 34px 4px 36px;
+        appearance: none;
+        margin-right: 14px;
+    }
+}
+
+@media (max-width: 599px) {
+    .logo img{
+        width: 90px;
+    }
+    .header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+        background-color: transparent;
+        width: 90%;
+        margin: auto;
+        z-index: 2;
+    }
+    .select-language {
+        background-color: transparent;
+        border: 1px solid #606060;
+        border-radius: 5px;
+        color: white;
+        font-size: 0px;
+        padding: 6px 30px 4px 34px;
+        appearance: none;
+        margin-right: 14px;
+    }
+}
+
+.header-buttons {
+    display: flex;
+    position: relative;
+}
+.login-button {
+    background-color: #E50815;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: #C11119;
+}
+.login-button:active {
+    background-color: #a30e16;
+    color: rgba(255, 255, 255, 0.819);
+    transition: none;
+}
+
+.translate-icon {
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    width: 18px;
+}
+.select-arrow {
+    position: absolute;
+    width: 26px;
+    right: 90px;
+    top: 4px;
+}
+.select-language:focus {
+    border: 1px solid #606060;
+    outline-offset: 2px;
+    outline: none;
+    outline: 2px solid white;
+}

@@ -1,0 +1,101 @@
+footer {
+    width: 82%;
+    height: 470px;
+    margin: auto;
+    margin-top: 40px;
+    color: #B3B3B3;
+}
+
+.footer-content {
+    text-align: left;
+    width: 95%;
+    padding: 5px 0px 10px 25px;
+}
+
+.call-customer-service span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.site-links {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 14px;
+    text-decoration: underline;
+    letter-spacing: -0.05em;
+    list-style-type: none;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.site-links li {
+    margin-bottom: 15px;
+}
+
+.change-language2 {
+    margin-top: 40px;
+    position: relative;
+    width: 20px;
+}
+
+.select-language2 {
+    background-color: transparent;
+    position: relative;
+    border: 1px solid #606060;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 6px 34px 4px 36px;
+    appearance: none;
+}
+.translate-icon2 {
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    width: 18px;
+}
+.select-arrow2 {
+    position: absolute;
+    width: 26px;
+    left: 112px;
+    top: 3px;
+}
+.select-language2:focus {
+    border: 1px solid #606060;
+    outline-offset: 2px;
+    outline: none;
+    outline: 2px solid white;
+}
+
+#netflix-brasil {
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 960px) and (max-width: 1199px) {
+    .site-links {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+    .site-links {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 599px) {
+    .site-links {
+        grid-template-columns: 1fr;
+    }
+    footer {
+        margin-top: 60px;
+        width: 90%;
+    }
+}

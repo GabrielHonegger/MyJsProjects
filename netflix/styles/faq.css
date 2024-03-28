@@ -1,0 +1,149 @@
+.faq {
+    width: 82%;
+    min-height: 675px;
+    max-height: 2500px;
+    background-color: transparent;
+    margin: auto;
+    color: white;
+    display: block;
+}
+.faq h1 {
+    font-size: 24px;
+}
+.questions {
+    text-align: left;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.question-box {
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: #2D2D2D;
+}
+.question-box a {
+    text-decoration: none;
+}
+.faq-question {
+    font-size: 24px;
+    height: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 0px 25px;
+    transition: background-color 300ms ease;
+    cursor: pointer;
+}
+.faq-question:hover {
+    background-color: #414141;
+}
+.faq-question p {
+    color: white;
+    text-decoration: none;
+    user-select: none;
+}
+/* details[open] .plus-icon::after {
+    content: '\00D7';
+} */ 
+
+/* to comment selected text: command + / */
+.faq-answer {
+    font-size: 24px;
+    margin-bottom: 15px;
+    padding: 20px 25px;
+}
+
+details[open] .plus-icon {
+    animation: rotate 50ms forwards;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(45deg);
+        font-size: 60px;
+    }
+}
+
+.plus-icon {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+    .faq h1 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .faq {
+        width: 95%;
+        min-height: 530px;
+    }
+    .questions {
+        width: 99%;
+    }
+    .faq-question {
+        font-size: 18px;
+        height: 72px;
+    }
+    .question-box {
+        margin-bottom: 8px;
+    }
+    .faq-answer {
+        font-size: 18px;
+    }
+    .plus-icon {
+        font-size: 40px;
+        font-weight: 100;
+    }
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(45deg);
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 599px) {
+    .faq h1 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .faq {
+        width: 95%;
+        min-height: 530px;
+    }
+    .questions {
+        width: 97%;
+    }
+    .faq-question {
+        font-size: 18px;
+        height: 72px;
+    }
+    .question-box {
+        margin-bottom: 8px;
+    }
+    .faq-answer {
+        font-size: 18px;
+    }
+    .plus-icon {
+        font-size: 40px;
+        font-weight: 100;
+    }
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(45deg);
+            font-size: 40px;
+        }
+    }
+}
