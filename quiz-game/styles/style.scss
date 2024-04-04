@@ -57,7 +57,7 @@ body {
 
 .wrong-marker {
     background-color: $red1;
-    background-image: url("img/wrong2.png");
+    background-image: url("/img/wrong2.png");
     background-repeat: no-repeat;
     background-size: 14px;
     background-position: 50%;
@@ -65,7 +65,7 @@ body {
 
 .right-marker {
     background-color: $green1;
-    background-image: url("img/right2.png");
+    background-image: url("/img/right2.png");
     background-repeat: no-repeat;
     background-size: 17px;
     background-position: 50%;
@@ -139,7 +139,7 @@ body {
 }
 .wrong-answer {
     background-color: $red1;
-    background-image: url("img/wrong.png");
+    background-image: url("/img/wrong.png");
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: 95%;
@@ -155,7 +155,7 @@ body {
 
 .right-answer {
     background-color: $green1;
-    background-image: url("img/right.png");
+    background-image: url("/img/right.png");
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: 95%;
